@@ -492,6 +492,46 @@
 			"Type": "SymbolFile"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/HotPatcher/Binaries/Win64/UE4Editor-HotPatcherEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/HotPatcher/Binaries/Win64/UE4Editor-HotPatcherEditor.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/HotPatcher/Binaries/Win64/UE4Editor-HotPatcherCore.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/HotPatcher/Binaries/Win64/UE4Editor-HotPatcherCore.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/HotPatcher/Binaries/Win64/UE4Editor-HotPatcherRuntime.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/HotPatcher/Binaries/Win64/UE4Editor-HotPatcherRuntime.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/HotPatcher/Binaries/Win64/UE4Editor-BinariesPatchFeature.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/HotPatcher/Binaries/Win64/UE4Editor-BinariesPatchFeature.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/HotPatcher/Binaries/Win64/UE4Editor-CmdHandler.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/HotPatcher/Binaries/Win64/UE4Editor-CmdHandler.pdb",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/SimpleUGC/Binaries/Win64/UE4Editor-SimpleUGC.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -625,62 +665,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Developer/PropertyAccessNode/Binaries/Win64/UE4Editor-PropertyAccessNode.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RD.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RD.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLink.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLink.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLogging.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLogging.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderBlueprint.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderBlueprint.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderGameControl.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderGameControl.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderShaderInfo.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderShaderInfo.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLC.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor-RiderLC.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -2089,14 +2073,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-VulkanShaderFormat.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-TextureFormatETC2.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(EngineDir)/Binaries/Win64/UE4Editor-TextureFormatETC2.pdb",
 			"Type": "SymbolFile"
 		},
 		{
@@ -4560,6 +4536,10 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/HotPatcher/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/SimpleUGC/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -4617,10 +4597,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Developer/PropertyAccessNode/Binaries/Win64/UE4Editor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/RiderLink/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
 		{
@@ -5050,6 +5026,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/HotPatcher/HotPatcher.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(ProjectDir)/Plugins/SimpleUGC/SimpleUGC.uplugin",
 			"Type": "UFS"
 		},
@@ -5107,10 +5087,6 @@
 		},
 		{
 			"Path": "$(EngineDir)/Plugins/Developer/PropertyAccessNode/PropertyAccessNode.uplugin",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(EngineDir)/Plugins/Developer/RiderLink/RiderLink.uplugin",
 			"Type": "UFS"
 		},
 		{
